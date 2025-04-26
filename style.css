@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Figtree';
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    /* display: flex; */
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 375px;
+    box-shadow: 10px 10px black;
+    padding-bottom: 10px;
+}
+
+.texture {
+    border-radius: 20px;
+    /* margin: 0; */
+    /* border: 0; */
+    width: 375px;
+}
+
+.box {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 7px;
+    margin-bottom: 0;
+    
+}
+.publish {
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.text {
+    color: hsl(0, 0%, 42%);
+    margin: 0;
+    padding: 0 0;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.blogOwner {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* height: 30px; */
+}
+
+.profilepic {
+    height: 40px;
+    padding: 20px 15px 0 0;
+
+}
+h4 {
+    /* height: 40px; */
+    padding: 10px 0 0 0;
+}
